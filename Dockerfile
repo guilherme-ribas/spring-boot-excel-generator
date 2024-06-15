@@ -1,6 +1,6 @@
 # Usar uma imagem base do OpenJDK que suporte a arquitetura ARM
 # FROM arm64v8/openjdk:17-ea-16-jdk
-FROM arm64v8/openjdk:17-ea-16-jdk
+FROM openjdk:17-jdk-alpine
 
 # Definir o diretório de trabalho no contêiner
 WORKDIR /app
